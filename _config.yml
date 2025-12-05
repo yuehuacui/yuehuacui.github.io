@@ -42,7 +42,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-8099-1753"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=%28Yuehua+Cui%29+AND+%28Michigan+OR+Florida%29"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
