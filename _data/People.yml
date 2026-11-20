@@ -1,0 +1,10 @@
+
+- name: Dr. Yuehua Cui
+  role: PI
+  email: cuiyh@msu.edu
+  photo: "/assets/images/cui.jpg"
+
+- name: Jane Doe
+  role: Postdoc
+  email: jane.doe@example.com
+  photo: "/assets/images/jane_doe.jpg"

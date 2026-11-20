@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>Cui Research Lab | Michigan State University</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.7;
+      color: #24332d;
+    }
+    header {
+      background: #18453B;
+      color: white;
+      padding: 60px 10%;
+    }
+    nav { background: #eef2ef; padding: 15px 10%; }
+    nav a { margin-right: 22px; color: #18453B; }
+    main { max-width: 960px; margin: auto; padding: 35px; }
+    section { margin-bottom: 45px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cui Research Lab</h1>
+    <p>Statistical Genomics and Spatial Omics</p>
+    <p>Michigan State University</p>
+  </header>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#people">People</a>
+    <a href="#publications">Publications</a>
+    <a href="#software">Software</a>
+  </nav>
+  <main>
+    <section id="research">
+      <h2>Research</h2>
+      <p>We develop statistical and computational methods
+      for spatial transcriptomics, statistical genomics,
+      and computational biology.</p>
+    </section>
+    <section id="people">
+      <h2>People</h2>
+      <p>Lab members and collaborators.</p>
+    </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>Selected research publications.</p>
+    </section>
+    <section id="software">
+      <h2>Software</h2>
+      <p>Open-source statistical software and tools.</p>
+    </section>
+  </main>
+</body>
+</html>

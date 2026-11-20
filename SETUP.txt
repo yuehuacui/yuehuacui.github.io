@@ -1,0 +1,114 @@
+YUEHUA CUI — GITHUB PAGES SETUP
+Website: https://yuehuacui.github.io/
+GitHub account: yuehuacui
+Repository name: yuehuacui.github.io
+
+1. EXTRACT AND PREVIEW
+- Right-click yuehuacui.github.io.zip and choose Extract All.
+- Open the extracted folder that contains index.html and assets.
+- Double-click index.html to preview the website.
+
+2. SIGN IN TO GITHUB DESKTOP
+- Open GitHub Desktop.
+- Open File > Options > Accounts and sign in to GitHub.com.
+- Confirm that the signed-in account is yuehuacui.
+  This exact username is required for https://yuehuacui.github.io/.
+  Naming a repository this way under a different account will not give
+  you this root website address.
+
+3. CREATE THE REPOSITORY
+If yuehuacui.github.io does NOT already exist on your GitHub account:
+- Choose File > New repository.
+- Name: yuehuacui.github.io
+- Description: Yuehua Cui's academic website
+- Choose a local path you can find easily.
+- Check Initialize this repository with a README.
+- Leave Git ignore and License at None unless you have a preference.
+- Click Create repository.
+
+If yuehuacui.github.io ALREADY exists on GitHub:
+- Choose File > Clone repository.
+- Select yuehuacui/yuehuacui.github.io and clone it.
+- Review and back up existing website files before replacing them.
+- Use the main branch for the instructions below.
+
+4. COPY THE WEBSITE FILES
+- In GitHub Desktop select Repository > Show in Explorer.
+- Open the extracted website folder in a second Explorer window.
+- Copy these items into the repository folder:
+    index.html
+    biography.html
+    research.html
+    publications.html
+    team.html
+    teaching.html
+    service.html
+    cv.html
+    assets (the entire folder)
+    .nojekyll
+- SETUP.txt may also be copied for reference.
+- Copy the contents, not the ZIP or an extra enclosing folder.
+- index.html must be directly inside the repository folder.
+- Keep the repository's .git folder and README.
+- If .nojekyll is hidden, enable View > Show > Hidden items in Explorer.
+
+5. COMMIT AND PUBLISH
+- Return to GitHub Desktop and review the changed files.
+- Summary: Add academic website
+- Click Commit to main.
+- Click Publish repository.
+- Confirm the name is yuehuacui.github.io.
+- Uncheck Keep this code private.
+- Click Publish repository.
+- If the repository is already published, click Push origin instead.
+
+6. TURN ON GITHUB PAGES
+- In Desktop choose Repository > View on GitHub.
+- On GitHub open the repository's Settings tab.
+- Select Pages in the left sidebar.
+- Under Build and deployment, set Source to Deploy from a branch.
+- Select main and / (root), then click Save.
+- Wait for the Pages deployment to complete.
+- Visit https://yuehuacui.github.io/
+
+7. CHECK THE LIVE WEBSITE
+- Open the Home, Biography, Research, Publications, Team, Teaching, Service,
+  and CV pages.
+- Check the headshot, Google Scholar link, email link, and CV PDF.
+- If the site shows 404, check that:
+  * the owner is yuehuacui;
+  * the repository is public and named yuehuacui.github.io;
+  * index.html is at the top level of the main branch;
+  * Pages is configured for main and / (root);
+  * the deployment has completed successfully.
+- For deployment errors, inspect the repository's Actions tab.
+- No custom domain or CNAME file is needed for this github.io address.
+
+MAKE FUTURE UPDATES
+- Edit the relevant HTML file in a text editor.
+- Colors and layout are in assets/style.css.
+- Navigation and sidebar are repeated in all eight HTML files.
+  Update all eight when changing shared elements.
+- Replace assets/portrait.png to change the photo.
+- Replace assets/Yuehua-Cui-CV.pdf to update the CV.
+- Preview index.html locally.
+- In Desktop, review changes, enter a summary, Commit to main,
+  then Push origin. GitHub Pages will deploy the updates.
+
+CONTENT NOTES
+- Content: https://www.stt.msu.edu/~cui/home.html
+- Teaching: https://www.stt.msu.edu/~cui/Teaching.htm
+- Scholar: https://scholar.google.com/citations?user=DBatCsoAAAAJ&hl=en
+- Portrait: headshot uploaded by Yuehua Cui.
+- Layout inspiration: https://chihli.github.io/
+- This is independently written HTML/CSS with a similar academic
+  navigation and portrait sidebar. No Jekyll installation is required.
+- The source teaching history ends in 2018.
+- SpatialCD is marked accepted in principle, as on the source homepage.
+  Review that status and editorial appointment dates before publishing.
+- The Team page lists names from the CV: current Ph.D. students, Ph.D.
+  alumni (advisor and co-chair), former postdocs, master\’s alumni,
+  undergraduate advisees, and a past lab rotation student.
+  Edit team.html to update these lists. No photos or placement details
+  are included. A software page can be added later.
+
