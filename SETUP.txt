@@ -90,7 +90,7 @@ MAKE FUTURE UPDATES
 - Navigation and sidebar are repeated in all eight HTML files.
   Update all nine when changing shared elements.
 - Replace assets/portrait.png to change the photo.
-- Replace assets/Yuehua-Cui-CV.pdf to update the CV.
+CV links point to the PDF hosted on the MSU directory profile.
 - Preview index.html locally.
 - In Desktop, review changes, enter a summary, Commit to main,
   then Push origin. GitHub Pages will deploy the updates.
@@ -117,3 +117,9 @@ NEWS UPDATES
 Edit the News section in index.html to add or change announcements.
 News appears only on the homepage. There is no separate News page.
 Navigation and sidebar are repeated across all eight HTML pages.
+
+MSU DIRECTORY CV
+The sidebar and CV-page button link to:
+https://directory.natsci.msu.edu/media/Directory/Profiles/CV_online20261123161643.pdf
+If MSU assigns a new PDF URL after a CV upload, update the link in all
+eight HTML pages. Replacing the old local PDF no longer changes the linked CV.
