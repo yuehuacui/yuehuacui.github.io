@@ -87,8 +87,8 @@ If yuehuacui.github.io ALREADY exists on GitHub:
 MAKE FUTURE UPDATES
 - Edit the relevant HTML file in a text editor.
 - Colors and layout are in assets/style.css.
-- Navigation and sidebar are repeated in all eight HTML files.
-  Update all eight when changing shared elements.
+- Navigation and sidebar are repeated in all nine HTML files.
+  Update all nine when changing shared elements.
 - Replace assets/portrait.png to change the photo.
 - Replace assets/Yuehua-Cui-CV.pdf to update the CV.
 - Preview index.html locally.
@@ -112,3 +112,8 @@ CONTENT NOTES
   Edit team.html to update these lists. No photos or placement details
   are included. A software page can be added later.
 
+
+NEWS UPDATES
+Edit news.html for the news archive and the News section in index.html
+for the homepage. Update both when adding or changing a news item.
+Navigation and sidebar are repeated across all nine HTML pages.
